@@ -87,3 +87,5 @@ function stopEdit(items){
     }
     console.log(selectedItem)
 }
+
+//Added some changes to verify that jenkins pipeline automated or not
