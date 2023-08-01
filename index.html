@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <title>Sona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <textarea id="todo" cols="1" rows="1" ondblclick=saveTodo() onkeydown="if(event.keyCode===13){saveTodo()}"></textarea>
+    <div>
+        <ol onfocus="stopEdit(items)" onkeydown="if(event.keyCode===13){return false}">
+        
+        </ol>
+    </div>
+    <div class="info-text"></div>
+    <script src="script.js"></script>
+</body>
+</html>
